@@ -1,0 +1,36 @@
+## Bitrix core/backups
+#-------------------------
+/bitrix
+
+## Local files
+#-------------------------
+/upload
+/images
+*.php.back*
+*.log
+*.xml
+*.csv
+*.txt
+/*.html
+/*.xlsx
+*tar.gz
+
+## Host files
+#-------------------------
+/.htaccess
+/.htaccess*
+web.config
+log1111
+/robots.txt
+/sitemap*.xml
+cgi-bin
+
+## Trash
+#-------------------------
+.DS_Store
+.DS_Store?
+.Trashes
+
+# IDE Files
+#-------------------------
+/.idea
