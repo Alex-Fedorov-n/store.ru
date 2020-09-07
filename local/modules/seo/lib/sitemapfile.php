@@ -25,7 +25,7 @@ class SitemapFile
 	const FILE_HEADER = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
 	const FILE_FOOTER = '</urlset>';
 
-	const ENTRY_TPL = '<url><loc>%s</loc><lastmod>%s</lastmod></url>';
+	const ENTRY_TPL = '<url><loc>%s</loc></url>';
 	const ENTRY_TPL_SEARCH = '<url><loc>%s</loc>';
 
 	const XPATH_URL = '/urlset/url';
