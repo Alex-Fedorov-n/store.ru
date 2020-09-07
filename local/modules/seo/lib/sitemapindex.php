@@ -20,7 +20,7 @@ class SitemapIndex
 	const FILE_HEADER = '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
 	const FILE_FOOTER = '</sitemapindex>';
 
-	const ENTRY_TPL = '<sitemap><loc>%s</loc><lastmod>%s</lastmod></sitemap>';
+	const ENTRY_TPL = '<sitemap><loc>%s</loc></sitemap>';
 
 	public function createIndex($arIndex)
 	{
