@@ -2,7 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("бренды");
 ?><?$APPLICATION->IncludeComponent(
-	"bitrix:news",
+	"bitrix_alex:news",
 	"",
 	Array(
 		"ADD_ELEMENT_CHAIN" => "Y",
