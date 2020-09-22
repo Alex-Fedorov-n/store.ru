@@ -2,6 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Интернет-магазин \"Одежда\"");
 ?>
+<p>123123123123</p>
 <?if  (IsModuleInstalled("advertising")):?>
 	<div class="mb-5">
 		<?$APPLICATION->IncludeComponent(
